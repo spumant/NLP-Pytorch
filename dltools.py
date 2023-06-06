@@ -2592,7 +2592,7 @@ def read_imdb(data_dir, is_train):
 # Defined in file: ./chapter_natural-language-processing-applications/sentiment-analysis-and-dataset.md
 def load_data_imdb(batch_size, num_steps=500):
     # data_dir = dltools.download_extract('aclImdb', 'aclImdb')
-    data_dir = "E:/data/aclImdb/"
+    data_dir = "D:\python2\code7\\NLP-Pytorch\Practical\imdb"
     train_data = read_imdb(data_dir, True)
     test_data = read_imdb(data_dir, False)
     train_tokens = dltools.tokenize(train_data[0], token='word')
